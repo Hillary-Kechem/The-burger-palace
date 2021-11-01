@@ -1,37 +1,31 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-html{
-    font-size: 10px;
-    font-family: "poppins" sans-serif;
-    scroll-behavior: smooth;
-}
+      font-family: 'Poppins', sans-serif;
+        margin: 0;
+    }
+
 .logo{
     float: left;
     margin-top: 0%;
-    padding:10px;
+    padding:0;
 }
 
-header::after{
+/header::after{
     content: '';
     display: table;
     clear: both;
-}
-.container1{
-    width: auto;
-    margin: auto;
-}
+}*/
 
-nav{
+
+.navbar{
     float: right;
+    
 
 }
 nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
 }
 nav li{
     display: inline-block;
@@ -45,70 +39,4 @@ nav a{
 }
 span{
     color:yellow;
-}
-
-
-
-.img-land{
-    float: right;
-}
-.btn{
- height: 30px;
- width: 10%;
- outline: none;
- border: none;
- background-color:  #F6B400;
- color: white;
- border-radius: 60px;
- font-weight: 500;
-}
-.img-land img{
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    width: 200px;
-}
-.menu-img img {
-    width: 200px;
-    height: 4g00px;
-  }
-
- /* .container{
-     
- } */
- .landpage{
-    
-    width: 100%;
-    display: flex;
-    justify-content:space-evenly;
- }
- .container{
-    background-color: white;
-    height: 1000px;
-    width: 100%;
- }
- .item{
-     vertical-align: top;
-     display: inline-block;
-     text-align: center;
-     width: 129px;
- }
- .menu{
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    width: 129px;
-}
-.menu-item{
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    width: 129px;
-}
-.backpol{
-    position: absolute;
-    background-color: #F6B400:right:0;
-    right
-
-    clip-path: polygon(100% 100%, 31% 100%, 61% 0, 100% 0);
 }
