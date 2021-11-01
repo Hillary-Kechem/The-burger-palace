@@ -11,33 +11,43 @@ html{
 .logo{
     float: left;
     margin-top: 0%;
+    padding:10px;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.container1{
+    width: auto;
+    margin: auto;
+}
+
+nav{
+    float: right;
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin: 40px;
+    padding-bottom: 10px;
+
+}
+nav a{
+    text-decoration: none;
+    
 }
 span{
     color:yellow;
 }
 
 
-.navbar {
-	width: 100%;
-	float: right;
-	margin: 0 0 3em 0;
-	padding: 0;
-	list-style: none;
-	background-color: #f2f2f2;
-	border-bottom: 1px solid #ccc; 
-	border-top: 1px solid #ccc; }
-.navbar li {
-	float: right; }
-.navbar li a {
-	display: inline;
-	padding: 8px 15px;
-	text-decoration: none;
-	font-weight: bold;
-	color: #069;
-	border-right: 1px solid #ccc; }
-.navbar li a:hover {
-	color: #c00;
-	background-color: #fff; }
 
 .img-land{
     float: right;
@@ -66,3 +76,39 @@ span{
  /* .container{
      
  } */
+ .landpage{
+    
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+ }
+ .container{
+    background-color: white;
+    height: 1000px;
+    width: 100%;
+ }
+ .item{
+     vertical-align: top;
+     display: inline-block;
+     text-align: center;
+     width: 129px;
+ }
+ .menu{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 129px;
+}
+.menu-item{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 129px;
+}
+.backpol{
+    position: absolute;
+    background-color: #F6B400:right:0;
+    right
+
+    clip-path: polygon(100% 100%, 31% 100%, 61% 0, 100% 0);
+}
