@@ -1,0 +1,21 @@
+nav{
+    float: right;
+
+}
+nav ul{
+    margin: 90px;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin: 40px;
+    padding-bottom: 10px;
+
+}
+nav a{
+    text-decoration: none;
+    
+}
+
+
